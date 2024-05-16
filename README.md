@@ -48,9 +48,9 @@ data = %{
   "some" => %{
     "nested" => %{
       "path" => [
+        %{"string-key" => :value1},
         %{"string-key" => :value2},
-        %{"string-key" => :value2},
-        %{"string-key" => :value2}
+        %{"string-key" => :value3}
       ]
     }
   }
